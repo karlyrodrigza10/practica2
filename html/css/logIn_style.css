@@ -1,0 +1,159 @@
+.log_in{
+  width: 40%;
+  height: 400px;
+  background: lightgray;
+  margin-top: 4%;
+  margin-left: 30%;
+  box-sizing: border-box;
+  padding: 3%;
+  position: relative;
+}
+
+section div{
+  width: 100%;
+  height: auto;
+}
+
+section div > img{
+  width: 25%;
+  height: auto;
+  margin:  -5% 0 0 38%;
+  padding-bottom: 2%;
+}
+
+section div > h2{
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  color: purple;
+}
+
+.log{
+  width: 100%;
+  height: 62%;
+  margin-left: 2%;
+}
+
+.log > form label, input{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > label{
+  font-size: 90%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+form > input{
+  width: 100%;
+  height: auto;
+}
+
+.log > form a{
+  display: inline-block;
+  padding: 1% 1% 1% 1%;
+  margin-top: 3%;
+  font-size: 80%;  
+  font-weight: bolder;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cancel{
+  background-color: orange;
+  color: blueviolet;
+}
+
+.accept{
+  background-color: greenyellow;
+  color: dodgerblue;
+}
+
+.link_regis{  
+  width: 100%;
+  height: 20px;
+  margin-top: 0.1%;
+  font-size: 80%;
+  text-align: right;
+}
+
+div > a:last-child{
+  color: fuchsia;
+  font-size: 120%;
+}
+
+footer{
+  border-top: 4px dotted green;
+  margin-top: 5%;
+}
+
+footer > p {
+  font-size: 70%;
+  font-weight: lighter;
+  text-align: center;
+  color: navy;
+  line-height: 130%;
+}
+
+@media screen {
+  body {
+    size: 140%;
+    font-size: 120%;
+    background-attachment: fixed;
+    background-color: ghostwhite;
+  }
+  .log > form a{    
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    size: 110%;
+    font-size: 110%;
+    background-color: lightblue;
+  }
+  .log > form a{    
+    margin-left: 18%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    size: 100%;
+    font-size: 100%;
+    background-attachment: fixed;
+    background-color: lightpink;
+  }
+  .log > form a{    
+    margin-left: 16%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    size: 85%;
+    font-size: 85%;
+    background-attachment: fixed;
+    background-color: lightgreen;
+  }
+  .log > form a{    
+    margin-left: 13%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    size: 70%;
+    font-size: 70%;
+    background-attachment: fixed;
+    background-color: beige;
+  }
+  .log > form a{    
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+}
