@@ -1,0 +1,51 @@
+footer{
+  background: url("../images/pleca.png");
+  height: auto;
+  width: 100%;
+  padding-top: 40px;
+  color: #000;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1px 20px 20px;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400px;
+  text-transform: capitalize;
+  padding-top: 10px;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 95%;
+  margin: 10px, auto;
+  line-height: 28px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-bottom{
+  background: #FFCC95;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  opacity: .65;
+}
+
+.footer-bottom p{
+  color: black;
+  font-size: 18px;
+  word-spacing: 2px;
+  font-weight: bold;
+}
+
+img{
+  width: 200px;
+}
