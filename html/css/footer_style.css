@@ -1,12 +1,15 @@
 footer{
-  background: url("../images/pleca.png");
-  height: auto;
-  width: 100%;
-  padding-top: 40px;
-  color: #000;
+  border-top: 8px dotted green;
+  margin-top: 5%;
 }
 
-.footer-content{
+.content{
+  background-image: url("../images/pleca.png");
+  background-color: gray;
+}
+
+.footer-content{  
+  background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,23 +19,23 @@ footer{
 }
 
 .footer-content h3{
-  font-size: 1.8rem;
+  font-size: 145%;
   font-weight: 400px;
   text-transform: capitalize;
   padding-top: 10px;
-  line-height: 3rem;
+  line-height: 250%;
 }
 
 .footer-content p{
   max-width: 95%;
   margin: 10px, auto;
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 24px;
+  font-size: 145%;
   font-weight: bold;
 }
 
 .footer-bottom{
-  background: #FFCC95;
+  background-color: #FFCC95;
   width: 100%;
   padding: 20px 0;
   text-align: center;
@@ -41,11 +44,76 @@ footer{
 
 .footer-bottom p{
   color: black;
-  font-size: 18px;
+  font-size: 20px;
   word-spacing: 2px;
   font-weight: bold;
 }
 
-img{
-  width: 200px;
+.footer-content img{
+  padding-top: 8px;
+  width: 180px;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer-content h3{
+    font-size: 125%;
+  }
+  .footer-content p{
+    font-size: 125%;
+    line-height: 22px;
+  }
+  .footer-bottom p{
+    font-size: 18px;
+  }
+  img{
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer-content h3{
+    font-size: 105%;
+  }
+  .footer-content p{
+    font-size: 105%;
+    line-height: 20px;
+  }
+  .footer-bottom p{
+    font-size: 16px;
+  }
+  img{
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer-content h3{
+    font-size: 95%;
+  }
+  .footer-content p{
+    font-size: 95%;
+    line-height: 18px;
+  }
+  .footer-bottom p{
+    font-size: 14px;
+  }
+  img{
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-content h3{
+    font-size: 90%;
+  }
+  .footer-content p{
+    font-size: 80%;
+    line-height: 20px;
+  }
+  .footer-bottom p{
+    font-size: 12px;
+  }
+  img{
+    width: 140px;
+  }
 }
