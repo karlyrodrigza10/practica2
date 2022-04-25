@@ -1,6 +1,6 @@
 .info_compras{
 	width: auto;
-	height: 570px;
+	height: 670px;
 	margin: 2% 1% 2% 1%;
 	padding: 1%;
 	background-color: #e2c4f0;
@@ -289,10 +289,39 @@
 	padding: 0% 2% 0% 8%;
 }
 
+.info_entrega div:last-child{
+	width: 90%;
+	height: auto;
+	margin: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info_entrega > div:last-child > img{	
+  width: 35px;
+  height: 35px;
+}
+
+button:last-child{
+	font-family: Century Gothic;
+	background-color: #aeff6e;
+	border-radius: 10px;
+	lighting-color: purple;
+	font-size: 100%;
+	margin: 2%;
+	padding: 3px;
+}
+
+button:hover{
+    background: #ffff6e;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1200px) {
   .info_compras{
 	width: auto;
-	height: 520px;
+	height: 620px;
   }
   h1{
   	font-size: 110%;
@@ -364,12 +393,19 @@
   .direccion > div:nth-child(7) > label:nth-child(even){
 	padding: 0% 6% 0% 6%;
   }
+  .info_entrega > div:last-child > img{	
+  width: 33px;
+  height: 33px;
+  }
+  button:last-child{
+	font-size: 90%;
+  }
 }
 
 @media screen and (max-width: 800px) {
   .info_compras{
 	width: auto;
-	height: 470px;
+	height: 530px;
   }
   h1{
   	font-size: 100%;
@@ -441,12 +477,19 @@
   .direccion > div:nth-child(7) > label:nth-child(even){
 	padding: 0% 6% 0% 10%;
   }
+  .info_entrega > div:last-child > img{	
+  width: 30px;
+  height: 30px;
+  }
+  button:last-child{
+	font-size: 80%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .info_compras{
 	width: auto;
-	height: 400px;
+	height: 450px;
   }
   h1{
   	font-size: 80%;
@@ -518,12 +561,19 @@
   .direccion > div:nth-child(7) > label:nth-child(even){
 	padding: 0% 6% 0% 10%;
   }
+  .info_entrega > div:last-child > img{	
+  width: 27px;
+  height: 27px;
+  }
+  button:last-child{
+	font-size: 70%;
+  }
 }
 
 @media screen and (max-width: 450px) {
   .info_compras{
 	width: auto;
-	height: 340px;
+	height: 390px;
   }
   h1{
   	font-size: 70%;
@@ -595,5 +645,12 @@
   }
   .direccion > div:nth-child(7) > label:nth-child(even){
 	padding: 0% 6% 0% 10%;
+  }
+  .info_entrega > div:last-child > img{	
+  width: 24px;
+  height: 24px;
+  }
+  button:last-child{
+	font-size: 60%;
   }
 }
