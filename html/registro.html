@@ -1,36 +1,38 @@
 <html>
 	<head>
-		<link rel="stylesheet" media="screen" type="text/css" href="./css/encabezado_style.css">
-		<link rel="stylesheet" media="screen" type="text/css" href="./css/registro_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/encabezado_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/registro_style.css">		
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/footer_style.css">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta charset="utf-8">
-		<link rel="icon" type="image/png" href="./images/huellita.png">
+		<link rel="icon" type="image/png" href="../images/huellita.png">
 		<title>REGISTRO</title>
 	</head>
 	<body>
-		<div class="contenedor2">
+		<img id="fondo" src="../images/fondo.jpg">
+		<div class="contenedor">
 			<header>
-				<a id="logo_icon" href="./log_In.html"><img src="./images/logo.png"></a>
-				<a id="titulo" href="./log_In.html"><img src="./images/bb.png"></a>		
+				<a id="logo_icon" href="./log_In.html"><img src="../images/logo.png"></a>
+				<a id="titulo" href="./log_In.html"><img src="../images/bb.png"></a>		
 				<div id="container_socmedia">
-					<a href="https://web.whatsapp.com/"><img src="./images/whatsapp.png" alt="whatsapp"></a>
-					<a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="insta"></a>
-					<a href="https://es-la.facebook.com/"><img src="./images/facebook.png" alt="facebook"></a>
+					<a href="https://web.whatsapp.com/"><img src="../images/whatsapp.png" alt="whatsapp"></a>
+					<a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="insta"></a>
+					<a href="https://es-la.facebook.com/"><img src="../images/facebook.png" alt="facebook"></a>
 				</div>
 			</header>
 			<section class="registro">
 				<div>
-					<img src="./images/logo.png">
-					<h2>Registro</h2>
+					<img src="../images/logo.png">
+					<h1>Registro</h1>
 				</div>
 				<div class="solicitud">
 					<form class="reg_datos">					
 						<label for="mail">Correo electrónico:</label>
 						<input type="text" name="mail">
 						<label for="pwd">Contraseña: </label>
-						<input type="text" name="pwd">
+						<input type="password" name="pwd">
 						<label for="confirm_pwd">Confirmar Contraseña: </label>
-						<input type="text" name="confirm_pwd">
+						<input type="password" name="confirm_pwd">
 						<label for="cel">Número de Celular: </label>
 						<input type="text" name="cel">
 						<a class="cancel">Cancelar</a>
@@ -38,16 +40,18 @@
 					</form>
 				</div>		
 			</section>
-		</div>
-		<footer>
-				<div class="footer-content">
-					<img src="./images/plus.png">
-					<h3>CREADORES DE LA PÁGINA</h3>
-					<p>Morales Rivera Catherin Cristina, 2021602050 | Rodríguez Aguilar Karla, 2021602305 | Rodríguez Granillo Maximiliano, 2021602306</p>
-				</div>
-				<div class="footer-bottom">
-					<p>copyright &copy;2022 Bebe'saurios. Todos los derechos reservados</p>
+			<footer>
+				<div class="content">
+					<div class="footer-content">					
+						<img src="../images/plus.png">
+						<h3>CREADORES DE LA PÁGINA</h3>
+						<p>Morales Rivera Catherin Cristina, 2021602050 | Rodríguez Aguilar Karla, 2021602305 | Rodríguez Granillo Maximiliano, 2021602306</p>
+					</div>
+					<div class="footer-bottom">
+						<p>copyright &copy;2022 Bebe'saurios. Todos los derechos reservados</p>
+					</div>
 				</div>
 			</footer>
+		</div>
 	</body>
 </html>

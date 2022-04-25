@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/encabezado_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/menu_bar_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/compra_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/footer_style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="../images/huellita.png">
+		<title>SOLICITUD DE COMPRA</title>
+	</head>
+	<body>
+		<img id="fondo" src="../images/fondo.jpg">
+		<div class="contenedor">
+			<header>
+				<a id="logo_icon" href="./log_In.html"><img src="../images/logo.png"></a>
+				<a id="titulo" href="./log_In.html"><img src="../images/bb.png"></a>		
+				<div id="container_socmedia">
+					<a href="https://web.whatsapp.com/"><img src="../images/whatsapp.png" alt="whatsapp"></a>
+					<a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="insta"></a>
+					<a href="https://es-la.facebook.com/"><img src="../images/facebook.png" alt="facebook"></a>
+				</div>
+			</header>
+			<div class="cont2">
+				<div class="save">
+					<img class="bag" src="../images/bolsa.png" alt="bolsa_compra">
+				</div>				
+				<div class="search">
+					<input type="text" placeholder="Buscar" required>
+					<div class="btn">
+						<img id="lupa" src="../images/lupa.png">
+					</div>
+				</div>				
+				<div class="usuario">
+					<img src="../images/user.png" alt="info_usuario">
+				</div>
+			</div>
+			<section class="info_compras">
+				<section class="compras">
+					<h1>Babero Azul Estampado</h1>
+					<div class="miniatura">
+						<img src="../images/babero.jpg" alt="product">
+					</div>
+					<div class="details">
+						<div>
+							<label>Cantidad:</label>
+							<input type="number" min="1" max="9" step="1" value="1" name="cantidad">
+						</div>
+						<div>
+							<label>Total:</label>
+							<label class="signo">$</label>
+							<input type="text" value="150" name="total">
+						</div>
+					</div>
+				</section>
+				<img class="inicio" src="../images/inicio.png" usemap="#home">
+				<map name="home">
+					<area shape="rect" coords="0,0,55,55" href="./menu.html">
+				</map>
+				<section class="info_entrega">
+					<div>
+						<h1>DATOS DE LA COMPRA</h1>
+					</div>
+					<div class="datos_tarjeta">
+						<div>
+							<label>No. Tarjeta:</label>
+							<input type="text" placeholder="XXXX-XXXX-XXXX-XXXX" name="No. Tarjeta">
+						</div>
+						<div>
+							<label>CVV:</label>
+							<input type="text" placeholder="XXX" name="CVV">
+						</div>
+						<div>
+							<label>Fecha de Vencimiento:</label>
+							<input type="date" min="2012-01-01" max="2022-01-01" class="readonly" name="Fec_Vencimiento">
+						</div>
+					</div>
+					<div class="titular">
+						<label>Nombre del Titular:</label>
+						<input type="text" name="Titular">
+					</div>
+					<div class="direccion">	
+						<div>
+							<h1>Dirección</h1>
+						</div>						
+						<div>
+							<input type="text" name="Ciudad/Edo">
+							<input type="text" name="Alcal./Del.">
+						</div>
+							<div>
+							<label>Ciudad / Estado</label>
+							<label>Alcaldia / Delegación</label>
+						</div>
+						<div>
+							<input type="text" name="Calle">
+							<input type="text" name="C.P.">
+						</div>
+						<div>
+							<label>Calle</label>
+							<label>Código Postal</label>
+						</div>
+						<div>
+							<input type="text" name="Ext.">
+							<input type="text" name="Int.">
+						</div>
+						<div>
+							<label>Exterior</label>
+							<label>Interior</label>
+						</div>			
+					</div>
+				</section>
+			</section>
+			<footer>
+				<div class="content">
+					<div class="footer-content">					
+						<img src="../images/plus.png">
+						<h3>CREADORES DE LA PÁGINA</h3>
+						<p>Morales Rivera Catherin Cristina, 2021602050 | Rodríguez Aguilar Karla, 2021602305 | Rodríguez Granillo Maximiliano, 2021602306</p>
+					</div>
+					<div class="footer-bottom">
+						<p>copyright &copy;2022 Bebe'saurios. Todos los derechos reservados</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
