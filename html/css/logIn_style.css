@@ -87,45 +87,30 @@ div > a:last-child{
 }
 
 @media screen {
-  body {
-    background-color: ghostwhite;
-  }
   .log > form a{    
     margin-left: 20%;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  body {
-    background-color: lightblue;
-  }
   .log > form a{    
     margin-left: 18%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    background-color: lightpink;
-  }
   .log > form a{    
     margin-left: 16%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  body {
-    background-color: lightgreen;
-  }
   .log > form a{    
     margin-left: 13%;
   }
 }
 
 @media screen and (max-width: 450px) {
-  body {
-    background-color: beige;
-  }
   .log > form a{    
     margin-left: 4%;
     margin-right: 4%;
