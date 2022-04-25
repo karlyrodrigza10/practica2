@@ -1,0 +1,599 @@
+.info_compras{
+	width: auto;
+	height: 570px;
+	margin: 2% 1% 2% 1%;
+	padding: 1%;
+	background-color: #e2c4f0;
+}
+
+.compras{
+	margin: 3.5% 1% 0 1%;
+	padding: 1%;
+	width: 49%;
+	height: auto;
+	background-color: transparent;
+	float: left;
+	box-sizing: border-box;
+}
+
+.compras > h1{
+	width: 95%;
+	height: auto;
+	background-color: papayawhip;
+	border-radius: 20px;
+	line-height: 120%;
+	text-align: left;
+	padding: 4px 10px 4px 10px;
+	margin-bottom: 6px;
+	margin-top: 15px;
+}
+
+.miniatura{
+	margin: 0% 1% 0 0;
+	padding: 0 1% 1% 1%;
+	width: 45%;
+	height: auto;
+	background-color: transparent;
+	float: left;
+	box-sizing: border-box;
+}
+
+.miniatura > img{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.details{
+		margin: 2px 1% 0 0;
+		padding: 0 2% 0 2%;
+		width: 52%;
+		height: auto;
+		background-color: whitesmoke;
+		float: right;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: left;
+		border-radius: 20px;
+}
+
+.details div{
+	width: 90%;
+	height: auto;
+	margin: 2%;
+	padding: 2%;
+	display: flex;
+	justify-content: safe left;
+	align-items: center;
+}
+
+.details div label:not(.signo){
+	width: 50%;
+	text-align: center;
+}
+
+.details div:first-child label{
+	font-size: 100%;
+	font-weight: bolder;
+	margin: 2% 17px 2% 0;
+	line-height: 250%;
+}
+
+.details div:nth-child(1){
+	display: flex;
+	justify-content: safe left;
+	align-items: center;
+}
+
+.details div:nth-child(1) input{
+	width: 40%;
+	font-size: 100%;
+	text-align: center;
+	border-color: gold;
+	background-color: ghostwhite;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.details div:nth-child(2) label:not(.signo){
+	font-size: 100%;
+	font-weight: bolder;
+	margin: 2% 0 2% 0;
+	line-height: 250%;
+}
+
+.signo{
+	font-size: 100%;
+	font-weight: bolder;
+	margin: 2% 7px 2% 0;
+	line-height: 250%;
+}
+
+.details div:nth-child(2){
+	display: flex;
+	justify-content: safe left;
+	align-items: center;
+}
+
+.details div:nth-child(2) input{
+	width: 40%;
+	font-size: 100%;
+	text-align: center;
+	border-color: gold;
+	background-color: ghostwhite;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inicio{
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 1%;
+}
+
+.info_entrega{
+	margin: 0 1% 0 0;
+	padding: .5% 2% 0 2%;
+	width: 48%;
+	height: auto;
+	background-color: antiquewhite;
+	float: right;
+	border-radius: 20px;
+	box-sizing: border-box;
+}
+
+
+.info_entrega > div:first-child > h1{
+	width: 100%;
+	height: auto;
+	background-color: papayawhip;
+	border-radius: 20px;
+	line-height: 120%;
+	text-align: center;
+	margin: 2%;
+}
+
+.datos_tarjeta div{
+	display: flex;
+	justify-content: safe left;
+	align-items: center;
+}
+
+.datos_tarjeta div > label{
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.datos_tarjeta div:first-child > label{
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 1% 17px 1% 0;
+	line-height: 250%;
+}
+
+.datos_tarjeta div:nth-child(2) > label{
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 1% 17px 1% 0;
+	line-height: 250%;
+}
+
+.datos_tarjeta div:nth-child(3) > label{
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 1% 17px 1% 0;
+	line-height: 250%;
+}
+
+.datos_tarjeta div > input{
+	float: right;
+	width: 80%;
+	font-size: 90%;
+	text-align: center;
+	border-color: gold;
+	background-color: ghostwhite;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.titular{
+	margin: 0 0 1% 0;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	text-align: center;
+}
+
+.titular > label{
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 2% 17px 2% 0;
+	line-height: 250%;
+}
+
+.titular > input{
+	float: right;
+	width: 100%;
+	font-size: 90%;
+	text-align: center;
+	border-color: gold;
+	background-color: ghostwhite;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.direccion{
+	margin: 0 1% 0 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+.direccion div > h1{
+	width: 100%;
+	height: auto;
+	border-top: 2px dotted purple;
+	border-bottom: 2px dotted purple;
+	border-radius: 20px;
+	line-height: 120%;
+	text-align: center;
+	margin: 3% 0% 3% 0%;
+}
+
+.direccion input{
+	float: right;
+	width: 45%;
+	margin: 0 4% 0 0;
+	font-size: 90%;
+	text-align: center;
+	border-color: gold;
+	background-color: ghostwhite;
+	box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.direccion label:nth-child(odd){
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 1% 10% 1% 0;
+	line-height: 250%;
+}
+
+.direccion label:nth-child(even){
+	width: 100%;
+	font-size: 90%;
+	font-weight: bolder;
+	margin: 1% 0 1% 10%;
+	line-height: 250%;
+}
+
+.direccion > div:nth-child(5) > label:nth-child(odd){
+	padding: 0% 4% 0% 2%;
+}
+
+.direccion > div:nth-child(5) > label:nth-child(even){
+	padding: 0% 0% 0% 10%;
+}
+
+.direccion > div:nth-child(7) > label:nth-child(odd){
+	padding: 0% 8% 0% 0%;
+}
+
+.direccion > div:nth-child(7) > label:nth-child(even){
+	padding: 0% 2% 0% 8%;
+}
+
+@media screen and (max-width: 1200px) {
+  .info_compras{
+	width: auto;
+	height: 520px;
+  }
+  h1{
+  	font-size: 110%;
+  }
+  .miniatura > img{
+	width: 100%;
+	height: 20%;
+  }
+  .details div:first-child label{
+	font-size: 90%;
+	margin: 2% 15px 2% 0;
+  }
+  .details div:nth-child(1) input{
+	width: 30%;
+	font-size: 90%;
+  }
+  .details div:nth-child(2) label:not(.signo){
+	font-size: 90%;
+	margin: 2% 0 2% 0;
+  }
+  .signo{
+	font-size: 90%;
+  }
+  .details div:nth-child(2) input{
+  	width: 30%;
+	font-size: 90%;
+  }
+  .datos_tarjeta div:first-child > label{
+	font-size: 90%;
+  }
+  .datos_tarjeta div:nth-child(2) > label{
+	font-size: 90%;
+  }
+  .datos_tarjeta div:nth-child(3)> label{
+	font-size: 90%;
+	line-height: 180%;
+  }
+  .datos_tarjeta div > input{
+	width: 80%;
+	font-size: 80%;
+  }
+  .titular > label{
+	font-size: 90%;
+  }
+  .titular > input{
+	font-size: 80%;
+  }
+  .direccion input{
+	font-size: 80%;
+	margin: 0 3% 0 2%;
+  }
+  .direccion label:nth-child(odd){
+	font-size: 70%;
+	margin: 1% 12% 1% 14%;
+  }
+  .direccion label:nth-child(even){
+	font-size: 70%;
+	margin: 1% 10% 1% 14%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(odd){
+	padding: 0% 6% 0% 4%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(even){
+	padding: 0% 2% 0% 6%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(odd){
+	padding: 0% 6% 0% 2%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(even){
+	padding: 0% 6% 0% 6%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .info_compras{
+	width: auto;
+	height: 470px;
+  }
+  h1{
+  	font-size: 100%;
+  }
+  .miniatura > img{
+	width: 100%;
+	height: 18%;
+  }
+  .details div:first-child label{
+	font-size: 80%;
+	margin: 2% 15px 2% 0;
+  }
+  .details div:nth-child(1) input{
+	width: 30%;
+	font-size: 80%;
+  }
+  .details div:nth-child(2) label:not(.signo){
+	font-size: 80%;
+	margin: 2% 0 2% 0;
+  }
+  .signo{
+	font-size: 80%;
+  }
+  .details div:nth-child(2) input{
+  	width: 30%;
+	font-size: 80%;
+  }
+  .datos_tarjeta div:first-child > label{
+	font-size: 80%;
+  }
+  .datos_tarjeta div:nth-child(2) > label{
+	font-size: 80%;
+  }
+  .datos_tarjeta div:nth-child(3)> label{
+	font-size: 80%;
+	line-height: 160%;
+  }
+  .datos_tarjeta div > input{
+	width: 80%;
+	font-size: 70%;
+  }
+  .titular > label{
+	font-size: 80%;
+  }
+  .titular > input{
+	font-size: 70%;
+  }
+  .direccion input{
+	font-size: 70%;
+	margin: 0 3% 0 2%;
+  }
+  .direccion label:nth-child(odd){
+	font-size: 60%;
+	margin: 1% 7% 1% 10%;
+  }
+  .direccion label:nth-child(even){
+	font-size: 60%;
+	margin: 1% 7% 1% 10%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(odd){
+	padding: 0% 8% 0% 6%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(even){
+	padding: 0% 2% 0% 10%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(odd){
+	padding: 0% 10% 0% 4%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(even){
+	padding: 0% 6% 0% 10%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info_compras{
+	width: auto;
+	height: 400px;
+  }
+  h1{
+  	font-size: 80%;
+  }
+  .miniatura > img{
+	width: 100%;
+	height: 16%;
+  }
+  .details div:first-child label{
+	font-size: 70%;
+	margin: 2% 15px 2% 0;
+  }
+  .details div:nth-child(1) input{
+	width: 30%;
+	font-size: 70%;
+  }
+  .details div:nth-child(2) label:not(.signo){
+	font-size: 70%;
+	margin: 2% 0 2% 0;
+  }
+  .signo{
+	font-size: 70%;
+  }
+  .details div:nth-child(2) input{
+  	width: 30%;
+	font-size: 70%;
+  }
+  .datos_tarjeta div:first-child > label{
+	font-size: 70%;
+  }
+  .datos_tarjeta div:nth-child(2) > label{
+	font-size: 70%;
+  }
+  .datos_tarjeta div:nth-child(3)> label{
+	font-size: 70%;
+	line-height: 150%;
+  }
+  .datos_tarjeta div > input{
+	width: 70%;
+	font-size: 60%;
+  }
+  .titular > label{
+	font-size: 70%;
+  }
+  .titular > input{
+	font-size: 60%;
+  }
+  .direccion input{
+	font-size: 60%;
+	margin: 0 3% 0 2%;
+  }
+  .direccion label:nth-child(odd){
+	font-size: 50%;
+	margin: 1% 5% 1% 9%;
+  }
+  .direccion label:nth-child(even){
+	font-size: 50%;
+	margin: 1% 5% 1% 9%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(odd){
+	padding: 0% 8% 0% 6%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(even){
+	padding: 0% 2% 0% 10%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(odd){
+	padding: 0% 10% 0% 4%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(even){
+	padding: 0% 6% 0% 10%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info_compras{
+	width: auto;
+	height: 340px;
+  }
+  h1{
+  	font-size: 70%;
+  }
+  .miniatura > img{
+	width: 100%;
+	height: 14%;
+  }
+  .details div:first-child label{
+	font-size: 60%;
+	margin: 2% 15px 2% 0;
+  }
+  .details div:nth-child(1) input{
+	width: 30%;
+	font-size: 60%;
+  }
+  .details div:nth-child(2) label:not(.signo){
+	font-size: 60%;
+	margin: 2% 0 2% 0;
+  }
+  .signo{
+	font-size: 60%;
+  }
+  .details div:nth-child(2) input{
+  	width: 30%;
+	font-size: 60%;
+  }
+
+  .datos_tarjeta div:first-child > label{
+	font-size: 60%;
+  }
+  .datos_tarjeta div:nth-child(2) > label{
+	font-size: 60%;
+  }
+  .datos_tarjeta div:nth-child(3)> label{
+	font-size: 60%;
+	line-height: 140%;
+  }
+  .datos_tarjeta div > input{
+	width: 60%;
+	font-size: 50%;
+  }
+  .titular > label{
+	font-size: 60%;
+  }
+  .titular > input{
+	font-size: 50%;
+  }
+  .direccion input{
+	font-size: 50%;
+	margin: 0 3% 0 2%;
+  }
+  .direccion label:nth-child(odd){
+	font-size: 40%;
+	margin: 1% 3% 1% 7%;
+  }
+  .direccion label:nth-child(even){
+	font-size: 40%;
+	margin: 1% 3% 1% 7%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(odd){
+	padding: 0% 8% 0% 6%;
+  }
+  .direccion > div:nth-child(5) > label:nth-child(even){
+	padding: 0% 2% 0% 10%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(odd){
+	padding: 0% 10% 0% 4%;
+  }
+  .direccion > div:nth-child(7) > label:nth-child(even){
+	padding: 0% 6% 0% 10%;
+  }
+}
