@@ -1,42 +1,52 @@
 <html>
 	<head>
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/encabezado_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/menu_bar_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/regisProd_style.css">
+		<link rel="stylesheet" media="screen" type="text/css" href="../css/footer_style.css">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<meta charset="utf-8">
-		<title>Registo de Producto</title>
-		<!----------------------------------Link's de estilos---------------------------------->
-		<link rel="stylesheet" media="screen" type="text/css" href="./css/encabezado_style.css">
-		<link rel="stylesheet" media="screen" type="text/css" href="./css/footer_style.css">
-		<link rel="stylesheet" media="screen" type="text/css" href="./css/regisProd_style.css">
-		<!----------------------Link del icono--------------------->
-		<link rel="icon" type="image/png" href="./images/icono.png">
+		<link rel="icon" type="image/png" href="../images/huellita.png">
+		<title>SOLICITUD DE COMPRA</title>
 	</head>
 	<body>
 		<img id="fondo" src="../images/fondo.jpg">
 		<div class="contenedor">
 			<header>
-				<a id="logo_icon" href="./log_In.html"><img src="./images/logo.png"></a>
-				<a id="titulo" href="./log_In.html"><img src="./images/bb.png"></a>		
+				<a id="logo_icon" href="./log_In.html"><img src="../images/logo.png"></a>
+				<a id="titulo" href="./log_In.html"><img src="../images/bb.png"></a>		
 				<div id="container_socmedia">
-					<a href="https://web.whatsapp.com/"><img src="./images/whatsapp.png" alt="whatsapp"></a>
-					<a href="https://www.instagram.com/"><img src="./images/instagram.png" alt="insta"></a>
-					<a href="https://es-la.facebook.com/"><img src="./images/facebook.png" alt="facebook"></a>
+					<a href="https://web.whatsapp.com/"><img src="../images/whatsapp.png" alt="whatsapp"></a>
+					<a href="https://www.instagram.com/"><img src="../images/instagram.png" alt="insta"></a>
+					<a href="https://es-la.facebook.com/"><img src="../images/facebook.png" alt="facebook"></a>
 				</div>
 			</header>
-
+			<div class="cont2">
+				<div class="save">
+					<img class="bag" src="../images/bolsa.png" alt="bolsa_compra">
+				</div>				
+				<div class="search">
+					<input type="text" placeholder="Buscar" required>
+					<div class="btn">
+						<img id="lupa" src="../images/lupa.png">
+					</div>
+				</div>				
+				<div class="usuario">
+					<img src="../images/user.png" alt="info_usuario">
+				</div>
+			</div>
 			<section class="regis_prod">
 				<div>
 					<h2>Registro de producto</h2>
 				</div>
 				<div class="datos">
 					<form class="reg_datos">	
-						<label for="name" > Nombre: 
-							<input type="text" name="key" placeholder="Ingresa el nombre del producto">
-						</label>				
-						<label for="folio" > Folio: 
-							<input type="text" name="folio" placeholder="Ingresa el folio del producto">
-						</label>
-						<label for="cost">Precio del producto: 
-							<input type="text" name="cost" placeholder="Ingresa el Precio Unitario del producto">
-						</label>
+						<label for="name"> Nombre: </label>
+						<input type="text" name="key" placeholder="Ingresa el nombre del producto">
+						<label for="folio"> Folio: </label>
+						<input type="text" name="folio" placeholder="Ingresa el folio del producto">
+						<label for="cost">Precio del producto: </label>
+						<input type="text" name="cost" placeholder="Ingresa el Precio Unitario del producto">
 						<label for="tipo"> Selecciona el tipo de producto:</label>
 						<div class="filtro">
 							<input type="checkbox" id="cbox1" value="tipo1">Ropa
@@ -52,20 +62,21 @@
 						<div class="center">
 							<button class="añadir">Añadir producto</button> 
 						</div>
-						
 					</form>
 				</div>		
 			</section>
-		</div>
-		<footer>
-				<div class="footer-content">
-					<img src="./images/plus.png">
-					<h3>CREADORES DE LA PÁGINA</h3>
-					<p>Morales Rivera Catherin Cristina, 2021602050 | Rodríguez Aguilar Karla, 2021602305 | Rodríguez Granillo Maximiliano, 2021602306</p>
-				</div>
-				<div class="footer-bottom">
-					<p>copyright &copy;2022 Bebe'saurios. Todos los derechos reservados</p>
+			<footer>
+				<div class="content">
+					<div class="footer-content">					
+						<img src="../images/plus.png">
+						<h3>CREADORES DE LA PÁGINA</h3>
+						<p>Morales Rivera Catherin Cristina, 2021602050 | Rodríguez Aguilar Karla, 2021602305 | Rodríguez Granillo Maximiliano, 2021602306</p>
+					</div>
+					<div class="footer-bottom">
+						<p>copyright &copy;2022 Bebe'saurios. Todos los derechos reservados</p>
+					</div>
 				</div>
 			</footer>
+		</div>
 	</body>
 </html>
